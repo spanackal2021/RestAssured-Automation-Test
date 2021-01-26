@@ -1,0 +1,126 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "As a choosy surfer",
+        "description": "",
+        "id": "surfer-is-able-to-surf-only-on-days-with-good-weather;as-a-choosy-surfer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 240753819,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I aim to surf in a beach in Sydney having country code as \"AU\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AU",
+                  "offset": 59
+                }
+              ],
+              "location": "StepDefinition.iAimToSurfInABeachInSydneyHavingCountryCodeAs(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 795858,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I only like to surf on any two days specifically \"Thursday\" and \"Friday\" in next 16 Days",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Thursday",
+                  "offset": 50
+                },
+                {
+                  "val": "Friday",
+                  "offset": 65
+                },
+                {
+                  "val": "16",
+                  "offset": 81
+                }
+              ],
+              "location": "StepDefinition.iOnlyLikeToSurfOnAnyTwoDaysSpecificallyAndInNextDays(String,String,int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6506391575,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I look up the the weather forecast for the next 16 days using POSTAL CODE \"2077\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "16",
+                  "offset": 48
+                },
+                {
+                  "val": "2077",
+                  "offset": 75
+                }
+              ],
+              "location": "StepDefinition.iLookUpTheTheWeatherForecastForTheNextDaysUsingPOSTALCODE(int,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10926472,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I check to if see the temperature is between \"15°C\" and \"30°C\" and UV index is \u003c\u003d 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15°C",
+                  "offset": 46
+                },
+                {
+                  "val": "30°C",
+                  "offset": 57
+                },
+                {
+                  "val": "5",
+                  "offset": 82
+                }
+              ],
+              "location": "StepDefinition.iCheckToIfSeeTheTemperatureIsBetweenAndAndUVIndexIs(String,String,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2727607,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Pick two spots based on suitable weather forecast for the day",
+            "match": {
+              "location": "StepDefinition.iPickTwoSpotsBasedOnSuitableWeatherForecastForTheDay()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Surfer is able to surf only on days with good weather",
+    "description": "",
+    "id": "surfer-is-able-to-surf-only-on-days-with-good-weather",
+    "keyword": "Feature",
+    "uri": "ChoosySurfer.feature"
+  }
+]
